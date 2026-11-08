@@ -1,0 +1,199 @@
+{
+    "destinations": [
+        {
+            "city": "بكين",
+            "paid_activities": [
+                "زيارة المدينة المحرمة والقصور الإمبراطورية - The Palace Museum, Forbidden City",
+                "زيارة سور الصين العظيم مع خيار التلفريك أو الزحليقة - Mutianyu Great Wall",
+                "جولة في القصر الصيفي وبحيرة كونمينغ - Summer Palace",
+                "زيارة معبد السماء وقاعة الصلاة للحصاد - Temple of Heaven",
+                "إطلالة بانورامية على المدينة المحرمة ومحور بكين - Jingshan Park",
+                "مشاهدة الباندا وحديقة الحيوانات - Beijing Zoo and Panda House",
+                "مدينة ألعاب وعروض ترفيهية، نشاط اختياري - Universal Beijing Resort"
+            ],
+            "free_activities": [
+                "زيارة الميدان وحضور مراسم رفع العلم، الحجز مطلوب - CN Tian'anmen Square",
+                "دخول مجاني مع حجز مسبق - National Museum of China",
+                "جولة في الشوارع التاريخية والأسواق القديمة - Qianmen and Dashilan",
+                "جولة حول البحيرات ومقاهي وأزقة الهوتونغ - Shichahai and Houhai",
+                "استكشاف الأزقة التقليدية والمحال المحلية - Nanluoguxiang",
+                "جولة في المنطقة الفنية، بعض المعارض مدفوعة - Art Zone 798 and 751D Park",
+                "مشاهدة الاستاد الوطني، عش الطائر، ومركز الألعاب المائية من الخارج - Olympic Park",
+                "جولة تسوق ومطاعم في وسط بكين - Wangfujing Street",
+                "زيارة كافيهات مختارة بإطلالات جميلة على المدينة"
+            ],
+            "hotels": [
+                {
+                    "name": "Sofitel Beijing"
+                },
+                {
+                    "name": "Grand Hyatt Beijing at Oriental Plaza"
+                }
+            ]
+        },
+        {
+            "city": "تشونغتشينغ",
+            "paid_activities": [
+                "الصعود إلى برج Raffles City Chongqing لرؤية المدينة ليلاً",
+                "رحلة كروس لمدة 45 دقيقة",
+                "دخول مدينة الألعاب Wansheng Ordovician",
+                "حضور عرض المسرح المتحرك بزاوية 360 درجة",
+                "زيارة أكثر المناطق الطبيعية في المدينة: San Niu Shan",
+                "دخول كهف القوارب Di Xin Tan Xian",
+                "الصعود بالتلفريك"
+            ],
+            "free_activities": [
+                "المنطقة القديمة Shibati",
+                "مشاهدة المترو داخل المبنى في Liziba Station",
+                "الطابق 22 (منصة مشاهدة حضرية)",
+                "زيارة Hongyadong",
+                "زيارة Ciqikou Ancient Town",
+                "حضور عرض الدرونز (يوم السبت)",
+                "زيارة بعض المولات",
+                "زيارة كافيهات مختارة بإطلالات جميلة على المدينة",
+                "شارع Xiahaoli Old Street"
+            ],
+            "hotels": [
+                {
+                    "rating": "فايف ستار",
+                    "name": "WFC"
+                },
+                {
+                    "rating": "اربعه نجوم",
+                    "name": "SEYA"
+                },
+                {
+                    "rating": "ثلاثه نجوم",
+                    "name": "BERKIN"
+                },
+                {
+                    "type": "نظام شقه ثلاث غرف وحمامين",
+                    "name": "YUNMU INTERNATIONAL RESIDENCES"
+                }
+            ]
+        },
+        {
+            "city": "جوانزوا",
+            "paid_activities": [
+                "الصعود إلى برج كانتون والاستمتاع بإطلالة بانورامية على جوانزو، مع خيار العجلة الدوارة والألعاب المرتفعة (Canton Tower 广州塔)",
+                "جولة نهرية ليلية لمشاهدة برج كانتون وأضواء المدينة والجسور المضيئة (Pearl River Night Cruise 珠江夜游)",
+                "زيارة الوادي الجبلي الشهير، والمشي على الجسر الزجاجي المرتفع، وتجربة الكارتنج الجبلي والمنزلقات والشلالات والتجديف النهري (يقع في مدينة تشينغيوان خارج جوانزو ويحتاج إلى رحلة يوم كامل) (Gulong Gorge 古龙峡)",
+                "زيارة الأكواريوم والأحياء البحرية داخل Grandview Mall (Grandview Aquarium 正佳极地海洋世界)"
+            ],
+            "free_activities": [
+                "مشاهدة برج كانتون والمباني الحديثة المضاءة ليلاً (Huacheng Square 花城广场)",
+                "التجول بين المباني الأوروبية التاريخية والمقاهي والشوارع الجميلة (Shamian Island 沙面岛)",
+                "استكشاف الأزقة التقليدية والأسواق والمطاعم والمقاهي (Yongqingfang 永庆坊)",
+                "التسوق في أشهر الشوارع التجارية والمطاعم والأسواق (Beijing Road 北京路步行街)",
+                "زيارة الحديقة والبحيرات وتمثال الكباش الخمسة (Yuexiu Park 越秀公园)",
+                "زيارة متحف قوانغدونغ، الدخول العام مجاني مع مراعاة الحجز (Guangdong Museum 广东省博物馆)",
+                "المشي على الجسر المخصص للمشاة والتقاط صور لبرج كانتون ونهر اللؤلؤ (Haixin Bridge 海心桥)",
+                "زيارة الكاتدرائية التاريخية والتقاط الصور (Sacred Heart Cathedral 石室圣心大教堂)",
+                "استكشاف الأسواق الشعبية والمباني التقليدية (Shangxiajiu Pedestrian Street 上下九步行街)",
+                "المشي بجانب النهر والاستمتاع بالمناظر الليلية (Pearl River Riverside 珠江沿岸)",
+                "زيارة مراكز التسوق مثل Taikoo Hui و Grandview Mall (Tianhe Shopping District 天河商圈)",
+                "جولة في الجزيرة الهادئة والمساحات الخضراء المطلة على النهر (Ersha Island 二沙岛)",
+                "زيارة كافيهات مختارة بإطلالات على برج كانتون ونهر اللؤلؤ"
+            ],
+            "hotels": [
+                {
+                    "name": "Four Seasons Hotel Guangzhou"
+                },
+                {
+                    "name": "Conrad Guangzhou"
+                },
+                {
+                    "name": "Hotel Indigo Guangzhou Haixinsha"
+                }
+            ]
+        },
+        {
+            "city": "قويلين",
+            "paid_activities": [
+                "جولة بالقوارب المصنوعة من الخيزران وسط الجبال والحقول الخضراء (Yulong River Bamboo Rafting 遇龙河竹筏漂流)",
+                "ركوب التلفريك والمشي فوق الجسور الزجاجية المعلقة، مع إطلالات بانورامية على جبال يانغشو (Ruyi Peak 如意峰)",
+                "الصعود إلى منصة مشاهدة نهر لي والجبال المحيطة، خصوصاً وقت شروق الشمس (Xianggong Mountain 相公山)",
+                "استكشاف الكهوف الجيرية والتشكيلات الصخرية الملونة (Silver Cave 银子岩)",
+                "حضور عرض فني ليلي على نهر لي وسط الجبال الطبيعية (Impression Liu Sanjie 印象刘三姐)",
+                "الصعود إلى الجبل الشهير بفتحه الطبيعية على شكل هلال (Moon Hill 月亮山)",
+                "رحلة بالقارب بين المناظر الجبلية والحدائق والقرى التقليدية (Shangri-La Scenic Area 世外桃源)",
+                "جولة نهرية من منطقة شينغبينغ للاستمتاع بالجبال والمناظر الطبيعية (Li River Boat Tour 漓江游船)",
+                "تجربة المنطاد أو الطيران الشراعي فوق جبال يانغشو، حسب حالة الطقس وتوافر التشغيل (Hot Air Balloon or Paragliding 热气球 / 滑翔伞)",
+                "استئجار دراجة هوائية أو كهربائية للتجول بين الجبال والقرى الريفية (Cycling or E-Bike Rental 骑行 / 电动车)"
+            ],
+            "free_activities": [
+                "التجول في أشهر شوارع يانغشو، والتسوق وزيارة المطاعم والمقاهي (West Street 西街)",
+                "استكشاف البلدة التاريخية والأزقة الصينية التقليدية (Xingping Ancient Town 兴坪古镇)",
+                "زيارة موقع المنظر لـ يوان 20 الشهير المطبوع على العملة الصينية فئة 20 يوان (20 Yuan Banknote Scenic Spot 二十元人民币背景)",
+                "التجول بين الجبال والحقول والمناظر الريفية الخلابة (Ten-Mile Gallery 十里画廊)",
+                "زيارة الجسر الحجري التاريخي والتقاط الصور بجانب نهر يولونغ (Fuli Bridge 富里桥)",
+                "المشي بجانب النهر والاستمتاع بالطبيعة والحقول الزراعية (Yulong River Riverside Walk 遇龙河)",
+                "استكشاف القرية الصينية التقليدية والمنازل التاريخية (Jiuxian Ancient Village 旧县村)",
+                "مشاهدة الجبال وانعكاساتها على مياه النهر عند الغروب (Li River Riverside 漓江江边)",
+                "زيارة الأسواق المحلية ومحلات الهدايا والمنتجات التقليدية (Yangshuo Local Markets 阳朔当地市场)",
+                "زيارة كافيهات مختارة بإطلالات على الجبال والحقول والأنهار، والمشاهد مجانية من الطرق العامة، والطلبات داخل المقاهي مدفوعة (Mountain View Cafés 山景咖啡馆)"
+            ],
+            "hotels": [
+                {
+                    "name": "Yangshuo Mountain Retreat"
+                },
+                {
+                    "name": "Li River Resort"
+                },
+                {
+                    "name": "LS"
+                }
+            ]
+        },
+        {
+            "city": "شنغهاي",
+            "paid_activities": [
+                "الصعود إلى منصة المشاهدة - Shanghai Tower",
+                "الصعود إلى منصة المشاهدة - Oriental Pearl Tower",
+                "تذكرة دخول المدينة - Shanghai Disneyland"
+            ],
+            "free_activities": [
+                "المشي بإطلالة رائعة على الأبراج – The Bund",
+                "جولة تسوق في أشهر شارع – Nanjing Road",
+                "استكشاف المنطقة الفنية – Tianzifang",
+                "زيارة الحديقة – Century Park",
+                "جولة في الحي الفرنسي السابق – Shanghai French Concession",
+                "زيارة كافيهات بإطلالات جميلة على النهر",
+                "جولة مسائية في منطقة Lujiazui الحديثة",
+                "زيارة الحدائق – Yuyuan Garden"
+            ],
+            "hotels": [
+                {
+                    "name": "SHANGRI-LA"
+                },
+                {
+                    "name": "CONRAD"
+                },
+                {
+                    "name": "MERCURE"
+                }
+            ]
+        },
+        {
+            "city": "Zhangjiajie",
+            "paid_activities": [
+                "Zhangjiajie National Forest Park",
+                "Bailong Elevator + Tianzi Mountain Cable Car",
+                "Zhangjiajie Grand Canyon + Glass Bridge",
+                "Tianmen Mountain + Cable Car"
+            ],
+            "free_activities": [
+                "72 Strange Buildings (72 زيارة منطقة 奇楼)",
+                "Furong town زيارة منطقة"
+            ],
+            "hotels": [
+                {
+                    "name": "HILTON GARDEN INN"
+                },
+                {
+                    "name": "HAMPTON BY HILTON"
+                }
+            ]
+        }
+    ]
+}

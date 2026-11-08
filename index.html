@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ni Hao Travel | ني هاو للسياحة والسفر إلى الصين</title>
+  <meta name="description"
+    content="بوابتكم لاكتشاف روائع وسحر الصين. استكشاف أجمل الوجهات وتجارب سفر استثنائية مع ني هاو ترافيل.">
+
+  <!-- Favicon / Logo -->
+  <link rel="icon" type="image/jpeg" href="logo.jpeg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+
+  <!-- Top Floating WhatsApp Button (Stays on scroll) -->
+  <a href="https://wa.me/8615213138900?text=مرحباً%20ني%20هاو%20ترافيل،%20أود%20الاستفسار%20عن%20رحلات%20الصين"
+    target="_blank" id="floatingWhatsapp" class="floating-whatsapp" aria-label="تواصل معنا عبر واتساب"
+    title="تواصل مباشر عبر واتساب">
+    <div class="whatsapp-pulse"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip" data-key="whatsappTooltip">تواصل معنا واتساب</span>
+  </a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo-wrap">
+        <img src="logo.jpeg" alt="Ni Hao Travel Logo" class="brand-logo-img circular-logo">
+        <div class="brand-text">
+          <span class="brand-name">Ni Hao <span class="highlight">Travel</span></span>
+          <span class="brand-tagline" data-key="brandSub">بوابتكم لسحر الصين</span>
+        </div>
+      </a>
+
+      <!-- Header Actions (Language Toggle + Dropdown Hamburger Menu) -->
+      <div class="header-actions">
+        <!-- Language Switcher Button -->
+        <button id="langToggleBtn" class="lang-toggle-btn" aria-label="تغيير اللغة">
+          <i class="fa-solid fa-globe"></i>
+          <span id="langLabel">English</span>
+        </button>
+
+        <!-- Dropdown Menu Wrapper (Drops right from the 3 lines) -->
+        <div class="menu-dropdown-wrapper" id="menuDropdownWrapper">
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="القائمة" aria-expanded="false" title="القائمة">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <!-- Dropdown Menu that disappears on click outside -->
+          <nav class="header-dropdown-menu" id="headerDropdownMenu">
+            <a href="#hero" class="dropdown-item active" data-key="navHome">
+              <i class="fa-solid fa-house"></i>
+              <span>الرئيسية</span>
+            </a>
+            <a href="#about" class="dropdown-item" data-key="navAbout">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>عن ني هاو</span>
+            </a>
+            <a href="#destinations" class="dropdown-item" data-key="navDestinations">
+              <i class="fa-solid fa-mountain-sun"></i>
+              <span>أجمل الوجهات</span>
+            </a>
+            <a href="#social" class="dropdown-item" data-key="navSocial">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>حساباتنا</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Side-by-Side Circular Clear Showcase -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-grid">
+        <!-- Column 1: Text Content -->
+        <div class="hero-text-col">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span data-key="heroBadge">بوابتكم السياحية المعتمدة إلى الصين</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span data-key="heroTitle1">اكتشف عجائب وسحر</span><br>
+            <span class="highlight" data-key="heroTitle2">بلاد الشرق الأسطورية</span>
+          </h1>
+
+          <p class="hero-description" data-key="heroSubtitle">
+            نأخذكم في رحلة لا تُنسى بين أعرق الحضارات التاريخية وناطحات السحاب المستقبلية وأروع الجبال الطبيعية في
+            الصين، مع رعاية واهتمام متكاملين.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#destinations" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-compass"></i>
+              <span data-key="heroCtaDestinations">استكشف أجمل الوجهات</span>
+            </a>
+          </div>
+
+          <!-- Quick Highlights Bar -->
+          <div class="hero-features-bar">
+            <div class="feature-pill">
+              <i class="fa-solid fa-mountain-sun"></i>
+              <span data-key="pill1">طبيعة خلابة وعجائب عالمية</span>
+            </div>
+            <div class="feature-pill">
+              <i class="fa-solid fa-language"></i>
+              <span data-key="pill2">مرشدين يتحدثون العربية بطلاقة</span>
+            </div>
+            <div class="feature-pill">
+              <i class="fa-solid fa-headset"></i>
+              <span data-key="pill3">متابعة خاصة طوال فترة الرحلة</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Circular Sharp Image Showcase (6 cities) -->
+        <div class="hero-slider-col">
+          <div class="circular-slider-wrapper" id="circularSliderWrapper">
+            <div class="circular-slider-ring"></div>
+            <div class="circular-slider-glow"></div>
+
+            <!-- Circular Slider Screen with crystal-clear high-res photos: 6 cities -->
+            <div class="circular-slider" id="circularSlider">
+              <div class="circle-slide active" style="background-image: url('pho1/beijing.jpeg');"
+                data-region="(Beijing)"></div>
+              <div class="circle-slide" style="background-image: url('pho1/chongqing.jpeg');" data-region="(Chongqing)">
+              </div>
+              <div class="circle-slide" style="background-image: url('pho1/guanzhou.jpeg');" data-region="(Guangzhou)">
+              </div>
+              <div class="circle-slide" style="background-image: url('pho1/guilin.jpeg');" data-region="(Guilin)"></div>
+              <div class="circle-slide active" style="background-image: url('pho1/shanghai.jpeg');"
+                data-region="(Shanghai)"></div>
+              <div class="circle-slide active" style="background-image: url('pho1/zhanjiajie.jpeg');"
+                data-region="(zhanjiajie)"></div>
+            </div>
+
+            <!-- Slide Caption Badge (Displays region name clearly) -->
+            <div class="circle-slide-badge" id="circleSlideBadge">
+              <i class="fa-solid fa-location-dot"></i>
+              <span id="circleSlideTitle">بكين (Beijing)</span>
+            </div>
+
+            <!-- Slider Dots Directly Below the Circle (4 Dots for 4 Cities) -->
+            <div class="slider-dots circle-dots" id="sliderDots">
+              <button class="dot active" data-index="0" aria-label="Slide 1 - Beijing"></button>
+              <button class="dot" data-index="1" aria-label="Slide 2 - Chongqing"></button>
+              <button class="dot" data-index="2" aria-label="Slide 3 - Guangzhou"></button>
+              <button class="dot" data-index="3" aria-label="Slide 4 - Guilin"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us / Introduction Section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-card-glow"></div>
+          <img src="logo.jpeg" alt="Ni Hao Travel Brand" class="about-brand-img circular-logo">
+        </div>
+
+        <div class="about-content">
+          <div class="section-label">
+            <i class="fa-solid fa-seedling"></i>
+            <span data-key="aboutLabel">عن ني هاو</span>
+          </div>
+          <h2 class="section-title" data-key="aboutTitle">
+            ني هاو ترافيل .. رفيقك الموثوق <br><span class="highlight">لرحلة العمر في الصين</span>
+          </h2>
+          <p class="about-paragraph" data-key="aboutText1">
+            "ني هاو" (你好) هي تحية الترحيب الصينية الدافئة، ومنها استلهمنا رسالتنا في فتح آفاق السفر الممتع والآمن إلى
+            واحدة من أروع وأعظم وجهات العالم.
+          </p>
+          <p class="about-paragraph" data-key="aboutText2">
+            نحن منصة متخصصة تُعنى بتقديم الصورة الحقيقية والمبهرة للسياحة في الصين؛ من استكشاف الطبيعة العذراء التي
+            أذهلت مخرجي السينما العالمية، إلى السير فوق أقدم الأسوار التاريخية وعيش الحياة العصرية في أضخم المدن الذكية،
+            مع توفير كافة سبل الراحة والتوجيه خطوة بخطوة عبر الواتساب ووسائل التواصل.
+          </p>
+
+          <div class="about-highlights-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div>
+                <h4 data-key="hightlight1Title">وجهات مدروسة بعناية</h4>
+                <p data-key="hightlight1Desc">اخترنا لكم أجمل المناطق التي تلخص تنوع وسحر الصين.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-comments"></i></div>
+              <div>
+                <h4 data-key="hightlight2Title">تواصل فوري ومباشر</h4>
+                <p data-key="hightlight2Desc">إجابة على كل التساؤلات والتخطيط معك بضغطة زر عبر الواتساب.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Iconic Destinations Section (أجمل الوجهات) -->
+  <section class="destinations-section section-padding" id="destinations">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label">
+          <i class="fa-solid fa-earth-asia"></i>
+          <span data-key="destinationsLabel">أيقونات الصين</span>
+        </div>
+        <h2 class="section-title" data-key="destinationsTitle">
+          : وجهات الرحلة
+        </h2>
+        <p class="section-subtitle" data-key="destinationsSubtitle">
+          وجهات أسطورية تشملها الرحلة؛ انقر على أي وجهة لاستعراض المعالم والأنشطة المدفوعة والحرة وتفاصيل الإقامة
+          والانتقال.
+        </p>
+      </div>
+
+      <!-- Destinations Grid (The 4 Tour Destinations from PDFs with Smooth 3-Image Slideshow) -->
+      <div class="destinations-grid" id="destinationsGrid">
+        <!-- Destination 1: Beijing -->
+        <article class="destination-card" data-id="beijing" onclick="openDestinationModal('beijing')" tabindex="0"
+          role="button" aria-label="بكين (Beijing)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/beijing1.jpeg" alt="بكين -سور" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/beijing2.jpeg" alt="بكين -سور الصين" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/beijing3.jpeg" alt="بكين- شارع " loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('beijing', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('beijing', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('beijing', 0, event)" aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('beijing', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('beijing', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">بكين (Beijing)</h3>
+              <span class="card-subtitle">عاصمة الأباطرة وسور الصين العظيم وقلب الحضارة الصينية</span>
+              <div class="card-hotel-preview" title="Sofitel Beijing / Grand Hyatt Beijing at Oriental Plaza">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Sofitel Beijing / Grand Hyatt</span>
+              </div>
+              <p class="card-desc">زيارة المدينة المحرمة، سور الصين العظيم، معبد السماء، القصر الصيفي وبحيرة كونمينغ،
+                واستكشاف أزقة الهوتونغ التاريخية.</p>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Destination 2: Chongqing -->
+        <article class="destination-card" data-id="chongqing" onclick="openDestinationModal('chongqing')" tabindex="0"
+          role="button" aria-label="تشونغتشينغ (Chongqing)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/chongqing1.jpeg" alt="تشونغتشينغ -جبال" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/chongqing2.jpeg" alt="تشونغتشينغ - أفق المدينة " loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/chongqing3.jpeg" alt="تشونغتشينغ - قطار " loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('chongqing', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('chongqing', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('chongqing', 0, event)"
+                aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('chongqing', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('chongqing', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">تشونغتشينغ (Chongqing)</h3>
+              <span class="card-subtitle">مدينة السايبربانك العصرية وجبال الضباب الساحرة</span>
+              <div class="card-hotel-preview" title="WFC / SEYA / BERKIN / YUNMU RESIDENCES">
+                <i class="fa-solid fa-hotel"></i>
+                <span>WFC (5 نجوم) / SEYA / BERKIN</span>
+              </div>
+              <p class="card-desc">مدينة الجبال ثلاثية الأبعاد، مباني هونغ يادونغ المضيئة، قطار المونوريل المار داخل
+                الأبنية، وأشهى هوت بوت صيني.</p>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Destination 3: Guangzhou -->
+        <article class="destination-card" data-id="guangzhou" onclick="openDestinationModal('guangzhou')" tabindex="0"
+          role="button" aria-label="جوانزو (Guangzhou)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/guangzhou1.jpeg" alt="جوانزو - جسرونهر " loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/guangzhou2.jpeg" alt="جوانزو - ساحة هواشنغ الحديثة" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/guangzhou3.jpeg" alt="جوانزو -  برج كانتون" loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('guangzhou', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('guangzhou', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('guangzhou', 0, event)"
+                aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('guangzhou', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('guangzhou', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">جوانزو (Guangzhou)</h3>
+              <span class="card-subtitle">عاصمة التجارة ونهر اللؤلؤ وبرج كانتون الأيقوني</span>
+              <div class="card-hotel-preview" title="Four Seasons / Conrad / Indigo Haixinsha">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Four Seasons / Conrad Guangzhou</span>
+              </div>
+              <p class="card-desc">مدينة الزهور وعاصمة التجارة العالمية، ناطحات سحاب مذهلة، كروز نهر اللؤلؤ الساحر، وبرج
+                كانتون الشامخ.</p>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Destination 4: Guilin -->
+        <article class="destination-card" data-id="guilin" onclick="openDestinationModal('guilin')" tabindex="0"
+          role="button" aria-label="قويلين (Guilin)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/guilin1.jpeg" alt="قويلين - نهر " loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/guilin2.jpeg" alt="قويلين - طبيعة يانغشو الخلابة" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/guilin3.jpeg" alt="قويلين -  مياه نهر و جبال " loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('guilin', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('guilin', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('guilin', 0, event)" aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('guilin', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('guilin', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">قويلين (Guilin)</h3>
+              <span class="card-subtitle">جنة الأرض بين جبال الكارست الأسطورية ونهر لي الخالد</span>
+              <div class="card-hotel-preview" title="Yangshuo Mountain Retreat / Li River Resort / LS Hotel">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Yangshuo Mountain Retreat / Li River</span>
+              </div>
+              <p class="card-desc">أجمل مناظر طبيعية تحت السماء، جبال الكارست الأسطورية، قوارب الخيزران على نهر يولونغ،
+                وبلدة يانغشو الساحرة.</p>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Destination 5: Shanghai -->
+        <article class="destination-card" data-id="shanghai" onclick="openDestinationModal('shanghai')" tabindex="0"
+          role="button" aria-label="شنغهاي (Shanghai)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/shanghai1.jpeg"
+                  alt="شنغهاي - أفق البوند" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/shanghai2.jpeg"
+                  alt="شنغهاي - برج شنغهاي" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/shanghai3.jpeg"
+                  alt="شنغهاي - لؤلؤة الشرق" loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('shanghai', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('shanghai', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('shanghai', 0, event)" aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('shanghai', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('shanghai', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">شنغهاي (Shanghai)</h3>
+              <span class="card-subtitle">لؤلؤة الشرق ومدينة ناطحات السحاب الساحرة</span>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Destination 6: Zhangjiajie -->
+        <article class="destination-card" data-id="zhangjiajie" onclick="openDestinationModal('zhangjiajie')" tabindex="0"
+          role="button" aria-label="تشانغجياجيه (Zhangjiajie)">
+          <div class="card-img-wrap">
+            <div class="card-slider-container">
+              <div class="card-slide active">
+                <img src="pho2/zhanjiajie1.jpeg"
+                  alt="تشانغجياجيه - جبال أفاتار" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/zhanjiajie2.jpeg"
+                  alt="تشانغجياجيه - الجسر الزجاجي" loading="lazy">
+              </div>
+              <div class="card-slide">
+                <img src="pho2/zhanjiajie3.jpeg"
+                  alt="تشانغجياجيه - جبل تيانمن" loading="lazy">
+              </div>
+            </div>
+            <div class="card-photo-count">
+              <i class="fa-regular fa-image"></i>
+              <span class="photo-idx">1 / 3</span>
+            </div>
+            <button class="card-slider-btn prev-btn" onclick="changeCardSlide('zhangjiajie', -1, event)"
+              aria-label="الصورة السابقة">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="card-slider-btn next-btn" onclick="changeCardSlide('zhangjiajie', 1, event)"
+              aria-label="الصورة التالية">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="card-slider-dots">
+              <button class="card-dot active" onclick="setCardSlide('zhangjiajie', 0, event)" aria-label="صورة 1"></button>
+              <button class="card-dot" onclick="setCardSlide('zhangjiajie', 1, event)" aria-label="صورة 2"></button>
+              <button class="card-dot" onclick="setCardSlide('zhangjiajie', 2, event)" aria-label="صورة 3"></button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div>
+              <div class="card-duration-badge">
+                <i class="fa-regular fa-clock"></i>
+                <span>4 أيام / 3 ليالي</span>
+              </div>
+              <h3 class="card-title">تشانغجياجيه (Zhangjiajie)</h3>
+              <span class="card-subtitle">جبال أفاتار الأسطورية وأطول جسر زجاجي معلق في العالم</span>
+            </div>
+            <div class="card-action">
+              <span data-key="cardDetailsBtn">اضغط لتفاصيل البرنامج والأنشطة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media & Community Board Section -->
+  <section class="social-section section-padding" id="social">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label">
+          <i class="fa-solid fa-share-nodes"></i>
+          <span data-key="socialLabel">تواصل معنا وتابعنا</span>
+        </div>
+        <h2 class="section-title" data-key="socialTitle">
+          حساباتنا الرسمية على منصات التواصل
+        </h2>
+        <p class="section-subtitle" data-key="socialSubtitle">
+          تابعوا يومياتنا وتغطياتنا المصورة لعجائب الصين، وتواصلوا معنا مباشرة عبر القنوات التالية:
+        </p>
+      </div>
+
+      <div class="social-cards-grid">
+        <!-- WhatsApp Card -->
+        <a href="https://wa.me/8615213138900?text=مرحباً%20ني%20هاو%20ترافيل،%20أرغب%20في%20معرفة%20تفاصيل%20رحلات%20الصين"
+          target="_blank" class="social-card whatsapp-card">
+          <div class="social-icon-box">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="social-info">
+            <span class="social-platform">WhatsApp</span>
+            <h3 class="social-handle">Ni Hao <span>Travel</span></h3>
+            <p class="social-desc" data-key="waCardDesc">رد سريع ومباشر على مدار الساعة لتخطيط رحلتك وإجابة استفساراتك.
+            </p>
+          </div>
+          <div class="social-btn">
+            <span data-key="waCardBtn">راسلنا الآن</span>
+            <i class="fa-solid fa-arrow-left arrow-icon"></i>
+          </div>
+        </a>
+
+        <!-- Instagram Card -->
+        <a href="https://www.instagram.com/ni_hao_travel?mdxt=MW54MTlncW02cWNkeA%3D%3D&utm_source=qr" target="_blank"
+          class="social-card instagram-card">
+          <div class="social-icon-box">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="social-info">
+            <span class="social-platform">Instagram</span>
+            <h3 class="social-handle">Ni Hao <span>Travel</span></h3>
+            <p class="social-desc" data-key="instaCardDesc">صور يومية مبهرة، فيديوهات ريلز ممتعة، وتغطيات لأجمل مدن
+              وطبيعة الصين.</p>
+          </div>
+          <div class="social-btn">
+            <span data-key="instaCardBtn">متابعة الحساب</span>
+            <i class="fa-solid fa-arrow-left arrow-icon"></i>
+          </div>
+        </a>
+
+        <!-- TikTok Card -->
+        <a href="https://www.tiktok.com/@ni.hao.travel?_r=1&_t=ZS-9AzQZJewCij" target="_blank"
+          class="social-card tiktok-card">
+          <div class="social-icon-box">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+          <div class="social-info">
+            <span class="social-platform">TikTok</span>
+            <h3 class="social-handle">Ni Hao <span>Travel</span></h3>
+            <p class="social-desc" data-key="tiktokCardDesc">مقاطع قصيرة حصرية عن ثقافة الأكل، العجائب التقنية، ونصائح
+              السفر إلى الصين.</p>
+          </div>
+          <div class="social-btn">
+            <span data-key="tiktokCardBtn">شاهد الفيديوهات</span>
+            <i class="fa-solid fa-arrow-left arrow-icon"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Destination Details Modal -->
+  <div class="destination-modal" id="destinationModal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="إغلاق">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-content" id="modalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-wrap">
+            <img src="logo.jpeg" alt="Ni Hao Travel" class="footer-logo-img circular-logo">
+            <div>
+              <span class="footer-brand-name">Ni Hao <span class="highlight">Travel</span></span>
+              <p class="footer-tagline" data-key="brandSub">بوابتكم لسحر الصين</p>
+            </div>
+          </div>
+          <p class="footer-about-text" data-key="footerDesc">
+            دليلك الأفضل لاكتشاف روعة السياحة الصينية. تجارب سفر ملهمة، استكشاف أجمل المدن، ودعم متواصل على مدار الرحلة.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title" data-key="footerQuickLinks">روابط سريعة</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero" data-key="navHome">الرئيسية</a></li>
+            <li><a href="#about" data-key="navAbout">عن ني هاو</a></li>
+            <li><a href="#destinations" data-key="navDestinations">أجمل الوجهات</a></li>
+            <li><a href="#social" data-key="navSocial">حسابات التواصل</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title" data-key="footerRegionsTitle">أجمل الوجهات</h4>
+          <ul class="footer-nav" id="footerDestinationsList">
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('beijing')">بكين (Beijing)</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('chongqing')">تشونغتشينغ (Chongqing)</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('guangzhou')">جوانزو (Guangzhou)</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('guilin')">قويلين (Guilin)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title" data-key="footerContactTitle">تواصل مباشر</h4>
+          <p class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp text-whatsapp"></i>
+            <span data-key="footerWaText">خدمة عملاء على مدار 24 ساعة</span>
+          </p>
+          <a href="https://wa.me/8615213138900?text=مرحباً%20ني%20هاو%20ترافيل،%20أرغب%20في%20ترتيب%20رحلة"
+            target="_blank" class="btn btn-primary footer-wa-btn">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-key="footerChatBtn">دردشة واتساب فورية</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Ni Hao Travel (你好). <span data-key="copyrightText">جميع الحقوق
+            محفوظة.</span>
+        </p>
+        <div class="footer-social-mini">
+          <a href="https://wa.me/8615213138900" target="_blank" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
